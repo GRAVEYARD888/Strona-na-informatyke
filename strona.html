@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <title>jak zrobić stronę html</title>
+   <meta name="author" content="Adam Krawiec">
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+   * {
+      font-family: calibri;
+   }
+   
+   body {
+      background-image: url('img/tlo.jpg');
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+   }
+
+   .klasa1{
+      color:white;
+      font-size:40px;
+   }
+
+   p{
+      color:lightgrey;
+      font-size:14px;
+   }
+</style>
+<body>
+   <header>
+      <img src="img/logoHTML.png" style="height:150px;">
+   </header>
+
+   <section>
+      <article>          
+         <div style="border:0px solid black; width:600px; height:100px; margin: 0 auto;">
+            <center> <h1><span class="klasa1">JAK ZROBIĆ SRONĘ W JĘZYKU HTML</span></h1> </center>
+         </div>
+
+         <div style="border:0px; width:80%; margin: 0 200px;">
+            <p>W tej lekcji stworzymy pierwszą <strong>stronę www</strong>, na przykładzie której przedstawię schemat konstrukcji szablonu, równocześnie stanowi ona wstęp do dalszej pracy nad właściwym już projektem.
+            <br>
+            Zacznę od wprowadzenia do ogólnej struktury witryny internetowej, na koniec tej lekcji przygotujemy pierwszy dokument html, który następnie podejrzymy w przeglądarce internetowej.
+            <br>
+            Jak zatem wygląda baza strony internetowej?<p>
+            <br>
+            <center> <h2><span class="klasa1">STRUKTURA DOKUMENTU HTML</span></h2> </center>
+            <p>Dokument strony internetowe jest zawarty pomiędzy <strong>znacznikami html</strong>. W części
+            <strong>head</strong> umieszczamy informacje, które nie będą widoczne w oknie głównego projektu.
+            Znajdzie się tam m.in tytuł strony (wyświetlany na pasku przeglądarki internetowej)
+            oraz ścieżka do pliku css definiującego wygląd strony internetowej. Z kolei w <strong>body</strong>
+            znajdzie się właściwa część strony, która zostanie wyświetlona na ekranie użytkownika.<p>
+            <br>
+            <center>
+               <img src="img/strukturaHTML.png" alt="struktura dokumnetu html" title="struktura dokumnetu html" style="width:50%; height:50%">
+            </center>
+            <br>
+            <center> <h2><span class="klasa1">ROZBUDOWA NASZEJ STRONY HTML</span></h2> </center>
+            <p>Dodamy kilka sekcji, które umożliwią nam lepsze rozplanowanie układu strony. Posłużymy się przyjętym dla
+            standardu html5 układem strony, który w miarę zdobywania wiedzy będzie można dowolnie rozbudować o nowe znaczniki.
+            Na początku dodamy header - w nim możemy umieścić logo, menu. Poniżej będą dwie kolumny: section - opis strony, aside - kolumna prawa. Na dole stopka - footer (może zawierać dane kontaktowe, informacje o stronie).
+            <p>
+         </div>
+      </article>
+   </section>
+   <center><img src="img/budowaHTML.jpg" alt="budowa strony html" title="budowa strony html"><center>
+   <center> <h2><span class="klasa1">WSKAZÓWKI</span></h2> </center>
+   <center><p>Na mojej stronie możesz znaleźć zupełne podstawy. Jeśli chcesz dowiedzieć się więcej na temat tworzenia strone w języku html możesz zajrzeć na <a href="http://how2html.pl" target="_blank">kurs</a>
+   lub jeśli chcesz uczyć się samodzielnie do <a href="http://zsebraniewo.neostrada.pl/HTML.pdf" target="_blank">pliku</a> ze znaczikami.</p></center>
+
+   <footer>
+      <div style="width=100%; height= 300px; font-size:40px;">
+         <center><p>Dziękuję za odwiedzenie mojej strony</p></center>
+      </div>
+   </footer>
+</body>
+</html>
